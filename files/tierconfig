@@ -1,0 +1,6 @@
+#! /bin/bash
+
+# re-apply the default puppet model
+# run this after modifying /etc/tier/common.yaml
+
+puppet apply $* /etc/puppetlabs/code/environments/production/manifests/default.pp

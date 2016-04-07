@@ -1,0 +1,21 @@
+{
+  "name":                     "tier-base",
+  "version":                  "0.1.0",
+  "author":                   "Scotty Logan",
+  "summary":                  "Base configuration for TIER images",
+  "license":                  "MIT",
+  "source":                   "https://github.com/scottylogan/puppet-tier-base.git",
+  "project_page":             "https://github.com/scottylogan/puppet-tier-base",
+  "issues_url":               "https://github.com/scottylogan/puppet-tier-base/issues",
+  "data_provider":            "hiera",
+  "operatingsystem_support":  [
+    {
+      "operatingsystem":           "CentOS",
+      "operatingsystemmajrelease": [
+        "7"
+      ]
+    }
+  ],
+  "dependencies": [ ]
+}
+
